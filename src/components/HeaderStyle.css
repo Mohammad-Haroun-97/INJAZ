@@ -1,0 +1,123 @@
+.w-100 {
+  height: 50vw;
+  width: 100vw;
+  filter: brightness(20%);
+}
+
+.background {
+  position: relative;
+}
+.menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  width: 4vw;
+  height: 3vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  border-radius: 10px;
+ 
+}
+.logoForm {
+  position: absolute;
+  top: 18vw;
+  left: 38vw;
+  z-index: 100;
+}
+.carouselDiv > div > div > button {
+  background-color: transparent !important;
+  border-radius: 50% !important;
+  border: 2px solid rgb(163, 158, 158) !important;
+  width: 0.8vw !important;
+  height: 0.8vw !important;
+  margin: 5px !important;
+  opacity: 1 !important;
+}
+.carousel-control-prev-icon {
+  height: 2vw;
+  width: 2vw;
+}
+.carousel-control-next-icon {
+  height: 2vw;
+  width: 2vw;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(139, 132, 132) !important;
+}
+.logo {
+  height: 10vw;
+  width: 22vw;
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: 9.7vw;
+  left: 1vw;
+}
+
+.d-flex {
+  display: block !important;
+  background-color: white;
+  height: 7vw;
+  width: 22vw;
+  position: relative;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.Search {
+  height: 97%;
+  width: 90%;
+  display: block !important;
+  border: 1px solid #ddd;
+  float: left;
+  border: none;
+}
+
+.inner {
+  margin-top: 1%;
+  height: 45%;
+  width: 10%;
+  margin-top: 3%;
+  display: inline-block !important;
+  float: right;
+}
+.bar {
+  border: 1px solid rgb(31, 30, 30);
+  height: 40%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
+  border-radius: 7px;
+}
+.navBar {
+  margin-top: 3%;
+  width: 100%;
+}
+.icon{
+ margin-left: 3%;
+ width: 7%;
+ height: 6%;
+}
+.firstIcon{
+  margin-left: 22%;
+  width: 7%;
+ height: 6%;
+}
+
+.logoTitle{
+  
+  color: rgb(255, 251, 251);
+  font-size: 15px;
+  text-align: center;
+}
+
+
+  @media only screen and (max-width: 1300px) {
+    .screens {
+     display: none;
+    }
+  }
+  
