@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Carousel,
   Form,
@@ -17,53 +16,57 @@ import { MdReorder } from "react-icons/md";
 export default function Header() {
   return (
     <>
+    <div>
       <div class="carouselDiv">
         <Carousel fade variant="primary" class="background">
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src={require("../assets/istockphoto-488120139-170667a.jpg")}
-              alt="Second slide"
-            />
+              alt="Second slide"/>
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
               src={require("../assets/istockphoto-495097670-170667a.jpg")}
-              alt="Third slide"
-            />
+              alt="Third slide"/>
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
-              src={require("../assets/buidling4.jpg")}
-              alt="Third slide"
-            />
+              src={require("../assets/building7.jpg")}
+              alt="Third slide"/>
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <img
+              className="d-block w-100"
+              src={require("../assets/istockphoto-488120139-170667a.jpg")}
+              alt="Third slide"/>
+          </Carousel.Item>
+          <Carousel.Item interval={2000}>
+            <img
+              className="d-block w-100"
+              src={require("../assets/building7.jpg")}
+              alt="Third slide"/>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              src={require("../assets/building6.jpeg")}
+              alt="Third slide"/>
           </Carousel.Item>
         </Carousel>
-
         <div class="logoForm">
-        
           <img
             class="logo"
-            src={require("../assets/gg-removebg-preview.png")}
-          />
+            src={require("../assets/gg-removebg-preview.png")}/>
           <div class="screens">
           <hr style={{backgroundColor:'white'}}></hr>
           <p class="logoTitle">New Projects For All Generations</p>
           </div>
-        
           <Form className="d-flex">
-            
-
           <div class="bar">
-          
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="Search"
-              aria-label="Search"
-            />
+            <FormControl type="search" placeholder="Search" className="Search" aria-label="Search"/>
               <FaSearch class='inner'/>
               </div>
               <div class='navBar' >
@@ -73,16 +76,12 @@ export default function Header() {
               <AiOutlineGithub class='icon'/>
               <AiOutlineGlobal class='icon'/>
               <AiOutlineMail class='icon'/>
-              </div>
-              
-          </Form>
-         
-        
-        
+              </div>  
+          </Form>                
         </div>
       </div>
-
       <MdReorder class='menu'/>
+      </div>
     </>
   );
 }
