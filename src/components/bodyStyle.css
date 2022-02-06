@@ -1,106 +1,247 @@
-.ourMission{
-    margin-top: 3vw;
-    
+.ourMission {
+  margin-top: 3vw;
 }
-.ourMission h2{
-    text-align: center !important;
-    /* background-color: yellow!important; */
-    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
-    font-stretch: ultra-expanded;
-}
-.ourMission p{
-    text-align: center;
-} 
-.ourMission img{
-    width: 10vw;
-    height: 4vw;
-   display: block;
-   margin: auto;
-   margin-bottom: 2vw;
-}
-body{
-    overflow-x: hidden;
+.ourMission h2 {
+  text-align: center !important;
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+  font-weight: 700;
+  font: bolder;
 }
 
-.impact{
-    margin-top: 7vw;
-   
-    
-    background:linear-gradient(rgba(34, 59, 201, 0.767), rgba(17, 49, 189, 0.726)), url("../assets/17990650_1463327883688358_373401812844563431_o.jpg") no-repeat center center;
-
-    background-size: cover;
-    
-     width: 100vw;
-    height: 35vw; 
+.ourMission p {
+  text-align: center;
+  font-family: "CustomFont";
+  src: url("../fonts/helveticaneue.ttf");
+  color: rgb(17, 17, 83);
+  font-weight: 600;
+  font-size: 16px;
 }
-.parent{
-    display: flex;
-    flex-direction: row;
-
+.ourMission img {
+  width: 10vw;
+  height: 4vw;
+  display: block;
+  margin: auto;
+  margin-bottom: 2vw;
 }
-.statics{
-    margin-top: 3vw;
-    display: inline-block;
+body {
+  overflow-x: hidden;
+}
+
+.impact {
+  margin-top: 7vw;
+  background: linear-gradient(
+      rgba(34, 59, 201, 0.767),
+      rgba(17, 49, 189, 0.726)
+    ),
+    url("../assets/17990650_1463327883688358_373401812844563431_o.jpg")
+      no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 35vw;
+}
+.impact h1 {
+  text-align: center;
+  padding-top: 2vw;
+  color: white;
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+  font-weight: 900;
+}
+.impact h3 {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+  font-weight: 900;
+}
+.impact p {
+  text-align: center;
+  color: white;
+  font-family: "CustomFont";
+  src: url("../fonts/MyriadPro-SemiboldIt.otf");
+  font-weight: 600;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.statics {
+  margin-top: 3vw;
+  display: inline-block;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 15vw;
+  border: 1px solid black;
+  margin-left: 13.5vw;
+}
+.imgs {
+  width: 100%;
+  height: 100%;
+  border-radius: 15vw;
+  border: 2px solid black;
+}
+Button {
+  font-family: "CustomFont";
+  src: url("../fonts/MyriadPro-BoldCond.otf");
+}
+.core {
+  background: url("../assets/simple-background-backgrounds-passion-simple-1-5c9b95c5ee7db.png")
+    no-repeat center center;
+
+  background-size: cover;
+
+  width: 100vw;
+  height: 30vw;
+}
+.core h1 {
+  text-align: center;
+  padding-top: 3vw;
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+  font-weight: 900;
+}
+
+.values {
+  margin-top: 3vw;
+  display: inline-block;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 15vw;
+  border: 3px solid black;
+  margin-left: 13.5vw;
+}
+.child {
+  width: 13vw;
+  height: 13vw;
+  border-radius: 13vw;
+  display: block;
+  margin: auto;
+  background-color: rgb(23, 23, 151);
+  display: table;
+  outline: 3px solid black;
+  outline-offset: 10px;
+  margin-top: 50px;
+}
+.child p {
+  font-family: "CustomFont";
+  font-size: 20px;
+  src: url("../fonts/MyriadPro-SemiboldIt.otf");
+  font-weight: 600;
+}
+.bodyyy {
+  overflow-x: hidden;
+}
+
+.missionImg {
+  display: inline-block;
+  width: 17vw;
+  height: 15vw;
+  display: block;
+  margin: auto;
+}
+
+::-webkit-input-placeholder {
+  font-size: 10px !important;
+}
+
+:-moz-placeholder {
+  font-size: 10px !important;
+}
+::-moz-placeholder {
+  font-size: 10px !important;
+}
+.detail {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 630px) {
+  .ourMission img {
     width: 15vw;
-    height: 15vw;
-    border-radius: 15vw;
-    border: 2px solid black;
-    /* background-color: red; */
-    margin-left: 13.5vw;
-   
-}
-.imgs{
-    width:100%;
-    height: 100%;
-    border-radius: 15vw;
-    border: 2px solid black;
-    /* background-color: red; */
-}
-.core{
-   
-   
-    
-    background: url("../assets/simple-background-backgrounds-passion-simple-1-5c9b95c5ee7db.png") no-repeat center center;
+    height: 8vw;
 
-    background-size: cover;
-   
-    
-     width: 100vw;
-    height: 30vw; 
-
-    
-}
-.values{
-    margin-top: 3vw;
-    display: inline-block;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 15vw;
-    border: 3px solid black;
-    /* background-color: yellow; */
-  
-   
-   
-    margin-left: 13.5vw;
-
-}
-.child{
-  
-    width: 13vw;
-    height: 13vw;
-    border-radius: 13vw;
     display: block;
-    margin:auto;
-    margin-top: .8vw;
-    background-color: rgb(23, 23, 151);
-    position: relative;
-    
+    margin: auto;
+    margin-bottom: 2vw;
+  }
+  .ourMission h2 {
+    font-size: 18px;
+  }
+  .ourMission p {
+    font-size: 13px;
+  }
+  .missionImg {
+    width: 35vw;
+    height: 25vw;
+  }
+
+  .impact h1 {
+    font-size: 16px;
+  }
+  .impact h3 {
+    font-size: 14px;
+  }
+  .impact p {
+    font-size: 0px;
+  }
+  .core h1 {
+    font-size: 16px;
+  }
+  .child {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20vw;
+  }
+  .child p {
+    font-size: 13px;
+  }
+  .child {
+    margin-top: 10px;
+  }
 }
-.detail{
-    margin-top: 20%;
-    position: absolute;
-    top: 2vw;
-    left: 3vw;
-    text-align: center;
-    color: white;
+@media only screen and (max-width: 1080px) {
+  .impact p {
+    font-size: 13px;
+  }
+  .impact {
+    height: 40vw;
+  }
+  .statics {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .impact p {
+    font-size: 8px;
+  }
+  .impact {
+    height: 55vw;
+  }
+  .child p {
+    font-size: 10px;
+  }
+  .core {
+    height: 40vw;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .statics {
+    margin-top: 0px;
+  }
+  .child p {
+    font-size: 10px;
+  }
+
+  .child {
+    width: 65px;
+    height: 60px;
+    border-radius: 70px;
+    outline-offset: 5px;
+  }
 }

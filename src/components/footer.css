@@ -1,0 +1,48 @@
+.footerParent {
+  height: 200px;
+  background-color: rgb(11, 11, 83);
+}
+
+.footerFlex {
+  display: flex;
+  gap: 5vw;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: rgb(11, 11, 83);
+}
+
+.childFooter ul li {
+  list-style: none;
+  color: white;
+}
+
+.footerSocial {
+  background-color: rgb(11, 11, 83);
+  text-align: center;
+}
+
+.social {
+  color: white;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.childFooter h6 {
+  color: rgb(255, 255, 255);
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+  font-weight: 900;
+}
+.childFooter li {
+  font-family: "CustomFont";
+  src: url("../fonts/MYRIADPRO-BOLDIT\ 2.OTF");
+}
+.childFooter li:hover {
+  cursor: pointer;
+}
+.social :hover {
+  cursor: pointer;
+}

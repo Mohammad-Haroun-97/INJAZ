@@ -7,7 +7,7 @@
 .background {
   position: relative;
 }
-.menu{
+.menu {
   position: absolute;
   top: 0;
   right: 0;
@@ -15,10 +15,9 @@
   z-index: 100;
   width: 4vw;
   height: 3vw;
-  margin-top: 1vw;
-  margin-right: 1vw;
+  margin-top: 2vw;
+  margin-right: 2vw;
   border-radius: 10px;
- 
 }
 .logoForm {
   position: absolute;
@@ -53,7 +52,7 @@
   display: block;
   margin: auto;
   position: absolute;
-  bottom: 9.7vw;
+  bottom: 11vw;
   left: 1vw;
 }
 
@@ -71,7 +70,7 @@
   height: 97%;
   width: 90%;
   display: block !important;
-  border: 1px solid #ddd;
+  background-color: transparent;
   float: left;
   border: none;
 }
@@ -91,33 +90,68 @@
   margin-left: 5%;
   margin-top: 3%;
   border-radius: 7px;
+  z-index: 100;
 }
 .navBar {
   margin-top: 3%;
   width: 100%;
 }
-.icon{
- margin-left: 3%;
- width: 7%;
- height: 6%;
+.icon {
+  margin-left: 3%;
+  width: 7%;
+  height: 6%;
+  padding-bottom: 5px;
 }
-.firstIcon{
+.firstIcon {
   margin-left: 22%;
   width: 7%;
- height: 6%;
+  height: 6%;
+  padding-bottom: 5px;
 }
 
-.logoTitle{
-  
+.icon :hover {
+  cursor: pointer;
+}
+.firstIcon :hover {
+  cursor: pointer;
+}
+.firstIcon :hover {
+  cursor: pointer;
+}
+.menu :hover {
+  cursor: pointer;
+}
+
+.logoTitle {
   color: rgb(255, 251, 251);
   font-size: 15px;
   text-align: center;
+  font-family: "CustomFont";
+  src: url("../fonts/Helvetica-Neue-Bold_22498.ttf");
 }
 
-
-  @media only screen and (max-width: 1300px) {
-    .screens {
-     display: none;
-    }
+@media only screen and (max-width: 1000px) {
+  .screens {
+    display: none;
   }
-  
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    margin-top: 0px;
+  }
+  .icon {
+    width: 10%;
+    height: 10%;
+    padding-bottom: 10px;
+  }
+  .firstIcon {
+    margin-left: 12%;
+    width: 10%;
+    height: 10%;
+    padding-bottom: 10px;
+  }
+  .d-flex {
+    height: 11vw;
+  }
+}
