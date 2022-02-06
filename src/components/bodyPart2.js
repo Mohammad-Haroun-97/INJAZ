@@ -24,7 +24,7 @@ export default function BodyPart2() {
     let description=e.target.description.value
     setContactForm({name:name,email:email,phoneNumber:phoneNumber,description:description
     })
-    await axios.post('https://injaz-backend.herokuapp.com/',contactForm).then((result)=>{
+    await axios.post('https://injaz-backend.herokuapp.com/addForm',contactForm).then((result)=>{
       setData(result.data)
     })
   }
@@ -110,7 +110,7 @@ export default function BodyPart2() {
       <Row>
           <Col>
       <Container className='col-md-10 form'>
-      <Form onSubmit={formHandler}>
+      <Form onSubmit={(e)=> formHandler(e)}>
       <h5 style={{textAlign:'center'}}>CONTACT FORM  </h5>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
       <Form.Control style={{backgroundColor:'rgb(209, 219, 219)'}} name="name"  type="text" placeholder="Client Name" />
@@ -122,7 +122,7 @@ export default function BodyPart2() {
      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
      <Form.Control name="description" style={{backgroundColor:'rgb(209, 219, 219)'}} as="textarea" rows={3} placeholder="Description"  />
     </Form.Group>
-    <Button type='submit' onSubmit={(e)=> formHandler(e)} style={{backgroundColor:'transparent',color:'red',border:'none',display:'block',margin:'auto'}}> Send message<BiCaretRight style={{ height: "20px" }} /></Button>
+    <Button type='submit'  style={{backgroundColor:'transparent',color:'red',border:'none',display:'block',margin:'auto'}}> Send message<BiCaretRight style={{ height: "20px" }} /></Button>
     </Form>
       </Container>
       </Col>
