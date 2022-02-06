@@ -19,16 +19,14 @@ export default function BodyPart2() {
     e.preventDefault()
     console.log(e);
     let name=e.target.name.value
-    console.log('dddd',e.target.name);
     let email=e.target.email.value
     let phoneNumber=e.target.phoneNumber.value
     let description=e.target.description.value
     setContactForm({name:name,email:email,phoneNumber:phoneNumber,description:description
     })
-    await axios.post('http://localhost:3003/addForm',contactForm).then((result)=>{
+    await axios.post('https://injaz-backend.herokuapp.com/',contactForm).then((result)=>{
       setData(result.data)
     })
-    alert(`These Date are coming From Mongo Database : Name : ${data.name} Email:${data.email} Phone Number :${data.phoneNumber} Description:${data.description}`)
   }
 
   return <>
